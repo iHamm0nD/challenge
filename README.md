@@ -1,20 +1,20 @@
 # 🎁 Amigo Secreto
 
-Este es un proyecto simple en JavaScript, HTML y CSS que permite agregar una lista de amigos y realizar un sorteo para elegir a tu **amigo secreto** de manera aleatoria.  
-La aplicación evita nombres repetidos y controla que haya un mínimo de participantes antes de iniciar el sorteo.
+Este es un proyecto en JavaScript y HTML que permite agregar una lista de amigos y realizar un sorteo para elegir a tu **amigo secreto** de manera aleatoria.  
+La aplicación evita nombres repetidos y controla que haya un mínimo de 2 participantes antes de iniciar el sorteo.
 
 ## 🚀 Características
 
 - Agregar nombres a la lista de participantes.
-- Evitar agregar nombres duplicados.
-- Mostrar la lista de amigos añadidos.
-- Realizar el sorteo seleccionando un amigo aleatorio.
+- Evita agregar nombres duplicados.
+- Muestra la lista de amigos añadidos.
+- Realiza el sorteo seleccionando un amigo aleatorio.
 - Evitar repetir amigos sorteados hasta que todos hayan sido elegidos.
 - Mensajes de alerta cuando:
-  - No hay amigos ingresados.
-  - Hay menos de 2 amigos para sortear.
-  - Se intenta agregar un nombre vacío o repetido.
-  - Ya se han sorteado todos los nombres.
+    - No hay amigos ingresados.
+    - Hay menos de 2 amigos para sortear.
+    - Se intenta agregar un nombre vacío o repetido.
+    - Ya se han sorteado todos los nombres.
 
 ## 📂 Estructura del Proyecto
     
@@ -22,7 +22,7 @@ La aplicación evita nombres repetidos y controla que haya un mínimo de partici
     ├── index.html # Página principal
     ├── style.css # Estilos del proyecto
     ├── app.js # Lógica en JavaScript
-    └── assets/ # Imágenes y recursos
+    └── assets/ # Imágenes
 
 ## 🖼️ Vista previa
 
@@ -30,21 +30,10 @@ La aplicación evita nombres repetidos y controla que haya un mínimo de partici
 
 ## 📋 Uso
 
-1. Escribe un nombre en el campo de texto y pulsa **"Añadir"**.
+1. Escribe un nombre en el campo de texto y pulsa **"Añadir"**. (Puedes añadir los que quieras)
 2. Repite el proceso para todos los participantes.
 3. Pulsa el botón **"Sortear amigo"** para obtener un amigo secreto al azar.
 4. El resultado se mostrará debajo de la lista.
-
-## 💻 Tecnologías utilizadas
-
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6)**
-
-## 📜 Instalación y ejecución
-
-No se requiere instalación.  
-Solo clona el repositorio y abre el archivo `index.html` en tu navegador.
 
 ```bash
 # Clonar el repositorio
