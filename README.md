@@ -35,13 +35,4 @@ La aplicación evita nombres repetidos y controla que haya un mínimo de 2 parti
 3. Pulsa el botón **"Sortear amigo"** para obtener un amigo secreto al azar.
 4. El resultado se mostrará debajo de la lista.
 
-```bash
-# Clonar el repositorio
-git clone https://github.com/tuusuario/amigo-secreto.git
-
-# Entrar en la carpeta del proyecto
-cd amigo-secreto
-
-# Abrir en el navegador
-start index.html   # En Windows
 
